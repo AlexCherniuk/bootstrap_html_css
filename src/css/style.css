@@ -5,12 +5,23 @@
 a {
     text-decoration: none;
 }
+
 header {
     position: relative;
 }
+
 nav {
     height: 50px;
     background-color: #212121;
+}
+
+span.colortext {
+    text-align: left;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+
 }
 
 .menu {
@@ -160,4 +171,71 @@ nav {
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.advantages {
+    display: block;
+    margin: 0 auto;
+    max-height: 849px;
+    max-width: 1064px;
+    padding: 20px 0 48px 0;
+}
+
+.advantages .adv_btn {
+    display: block;
+    margin: 0 auto;
+    background: #000000;
+    width: 113px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.advantages .container .row {
+   height: 765px;
+}
+
+.advantages .container .row .col-md-6 {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.advantages .adv_header {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #222222;
+}
+
+.advantages .adv_round {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+
+.advantages .adv_dscr {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: left;
+    max-width: 372px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
 }
