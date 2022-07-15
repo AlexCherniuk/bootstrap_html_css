@@ -354,13 +354,35 @@ span.colortext
         font-size: 22px
         color: $blue_color
         margin-bottom: 20px
+
     &_list
         list-style-type: none
         padding-left: 50px
         li
+            position: relative
             font-weight: 300
             font-size: 17px
             line-height: 24px
             color: #222222
             margin-bottom: 10px
             &:before
+                content: ''
+                display: block
+                position: absolute
+                left: -31px
+                top: 2px
+                width: 21px
+                height: 20px
+                background: url('../icons/require.svg') center (center / cover) no-repeat
+    &_descr
+        font-weight: 300
+        font-size: 17px
+        line-height: 24px
+        color: $blue_color
+.warning
+    .require_title
+        color: $pink_color
+    .require_list
+        li
+            &:before
+                background: url('../icons/require2.svg') center (center / cover) no-repeat
